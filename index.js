@@ -10,7 +10,7 @@ const player2 = getElement('player2')
 const player1HistorySection = getElement('player1-history')
 const player2HistorySection = getElement('player2-history')
 
-function onload() {
+function onload() {.0
   player1.disabled = !playerturn
   player2.disabled = playerturn
 }
